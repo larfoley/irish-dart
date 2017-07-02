@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1 Find out how long until the next Dart
+  .nextDartOutput
+  form(class='getNextDartForm')
+    select(class='station')
+      each station in stations
+        option= station
+    br
+    label(class="direction" htmlFor="north")
+      input(class='Northbound' id='north' type='radio' name='direction' value="Northbound" checked)
+      span Northbound
+    br
+    label(class="direction" htmlFor="south")
+      input(class="Southbound" type='radio' name='direction' value="Southbound")
+      span Southbound
+    br
+    button(class="btn") Search for the Next Dart

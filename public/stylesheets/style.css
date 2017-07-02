@@ -1,0 +1,61 @@
+body {
+  padding: 50px;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: white;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nextDartOutput.hasLoaded {
+  background-color: #f5f5f5;
+  padding: 2em;
+  margin: 2em;
+}
+
+.nextDartOutput.hasLoaded p {
+  font-size: 1.2em;
+}
+
+.station {
+  padding: .5em;
+  margin: 1em 0;
+}
+
+.station:hover {
+  cursor: pointer;
+}
+
+.direction {
+  padding: .5em;
+  display: inline-block;
+}
+
+.direction:hover {
+  cursor: pointer;
+}
+
+.btn {
+  margin: 3em 0;
+  padding: 1.5em 3.7em;
+  display: inline-block;
+  background-color: #2e2e2e;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: black;
+}
